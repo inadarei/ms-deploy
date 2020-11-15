@@ -9,7 +9,7 @@ image:
   repository: irakli/flights
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.1"
+  tag: "v1.0"
 
 MYSQL_HOST: rds.staging.msur-vpc.com
 MYSQL_USER: microservices
