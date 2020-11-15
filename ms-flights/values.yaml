@@ -4,12 +4,18 @@
 
 replicaCount: 1
 
+#image:
+##  repository: msupandrunning/flights
+#  repository: irakli/flights
+#  pullPolicy: IfNotPresent
+#  # Overrides the image tag whose default is the chart appVersion.
+#  tag: "v1.0"
+
 image:
-#  repository: msupandrunning/flights
-  repository: irakli/flights
+  repository: rmitra/flights
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0"
+  tag: "v0.19"
 
 MYSQL_HOST: rds.staging.msur-vpc.com
 MYSQL_USER: microservices
